@@ -46,6 +46,7 @@ int main()
 	printf("\nEnter the number of nodes you want\n");
 	scanf("%d",&n);
 	node **head=(node **)malloc(n*sizeof(node *));
+	//node *head[110]={NULL};
 	printf("\nEnter the number of edges\n");
 	scanf("%d",&e);
 	while(e--)
